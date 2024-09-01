@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Practice</title>
+    </head>
+    <style>
+        body{
+            background-color: aliceblue;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table{
+            margin: 2px solid;
+            text-align: center;
+            padding: 15px;
+        }
+        thead{
+            background-color: aquamarine;
+        }
+        th{
+            width: 150px;
+        }
+        tbody{
+            background-color: aqua;
+        }
+        tr{
+            padding: auto;
+            height: 50px;
+        }
+        #date{
+            background-color: crimson;
+        }
+    </style>
+    <body>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th scope="col">08:00 - 08:40</th>
+                        <th scope="col">08:40 - 09:20</th>
+                        <th scope="col">09:20 - 10:00</th>
+                        <th scope="col">10:00 - 10:40</th>
+                        <th scope="col">10:40 - 11:20</th>
+                        <th scope="col">11:20 - 12:20</th>
+                        <th scope="col">12:20 - 13:00</th>
+                        <th scope="col">13:00 - 13:40</th>
+                        <th scope="col">13:40 - 14:20</th>
+                        <th scope="col">14:20 - 15:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="date">Monday</th>
+                        <td colspan="2">Mathematics</td>
+                        <td colspan="2">Biology</td>
+                        <td colspan="2">Civic-Education</td>
+                        <td rowspan="10">Break-Time</td>
+                        <td colspan="2">Free Period</td>
+                        <td> Economics</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row" id="date">Tuesday</th>
+                        <td colspan="2">English Language</td>
+                        <td colspan="2">Data Processing</td>
+                        <td colspan="2">Biology</td>
+                        <td colspan="2"> Mathematics</td>
+                        <td>Civic-Education</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row" id="date">Wednesday</th>
+                        <td colspan="2">Further Maths</td>
+                        <td colspan="2">Economics</td>
+                        <td colspan="2">English Language</td>
+                        <td colspan="3"> Club & Society</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row" id="date">Thursday</th>
+                        <td colspan="2">Chemistry</td>
+                        <td colspan="2">Data Processing</td>
+                        <td colspan="2">Mathematics</td>
+                        <td colspan="2">Further Mathematics</td>
+                        <td>Free Period</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row" id="date">Friday</th>
+                        <td colspan="2">Sports</td>
+                        <td colspan="2">Physics</td>
+                        <td colspan="2">Physics Practical</td>
+                        <td colspan="2">Chemistry Practical</td>
+                        <td>Biology Practical</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
